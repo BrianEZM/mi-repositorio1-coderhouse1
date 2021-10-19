@@ -1,0 +1,118 @@
+* {
+  font-family: sans-serif !important;
+  padding: 0.15rem !important;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ECF0F1), to(#3498DB));
+  background-image: linear-gradient(#ECF0F1, #3498DB);
+  padding: unset !important;
+}
+
+.bg-light {
+  background-color: #3498DB !important;
+}
+
+.nav-link {
+  font-weight: bolder;
+}
+
+.dropdown-item {
+  font-weight: bold;
+}
+
+.btn-outline-success {
+  color: #03090e;
+  border-color: #03090e;
+}
+
+.card-container1, .card-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.marca1 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  -webkit-transition: color 1s, -webkit-transform 2s;
+  transition: color 1s, -webkit-transform 2s;
+  transition: transform 2s, color 1s;
+  transition: transform 2s, color 1s, -webkit-transform 2s;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.marca1:hover {
+  -webkit-transform: scale(1.3, 1.8);
+          transform: scale(1.3, 1.8);
+  color: #D4E6F1 !important;
+}
+
+.accordion-body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#D4E6F1), to(#2471A3));
+  background-image: linear-gradient(#D4E6F1, #2471A3);
+}
+
+.ubicacion1 {
+  text-decoration: none;
+}
+
+.form-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.form-select {
+  width: 8rem;
+}
+
+.col-auto {
+  margin-right: 2rem;
+}
+
+.footer .justify-content-end .nav-item {
+  border-left: 4px solid #2471A3;
+}
+
+.footer .justify-content-end .nav-item .nav-link {
+  color: #ECF0F1;
+}
+
+.prueba1, .prueba4, .prueba2, .prueba3, .prueba4 {
+  border: 3px solid #2471A3;
+}
+
+.prueba1, .prueba4 {
+  height: 10rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3498DB), to(#2471A3));
+  background-image: linear-gradient(#3498DB, #2471A3);
+}
+
+.prueba2 {
+  height: 20rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ECF0F1), to(#2471A3));
+  background-image: linear-gradient(#ECF0F1, #2471A3);
+}
+
+.prueba3 {
+  height: 6rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2471A3), to(#3498DB));
+  background-image: linear-gradient(#2471A3, #3498DB);
+}
+
+.prueba4 {
+  border-radius: 25%;
+  text-align: center;
+  font-size: 0.7rem;
+}
+/*# sourceMappingURL=styles.css.map */
