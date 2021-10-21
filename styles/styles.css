@@ -87,32 +87,4 @@ body {
 .footer .justify-content-end .nav-item .nav-link {
   color: #ECF0F1;
 }
-
-.prueba1, .prueba4, .prueba2, .prueba3, .prueba4 {
-  border: 3px solid #2471A3;
-}
-
-.prueba1, .prueba4 {
-  height: 10rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3498DB), to(#2471A3));
-  background-image: linear-gradient(#3498DB, #2471A3);
-}
-
-.prueba2 {
-  height: 20rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ECF0F1), to(#2471A3));
-  background-image: linear-gradient(#ECF0F1, #2471A3);
-}
-
-.prueba3 {
-  height: 6rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2471A3), to(#3498DB));
-  background-image: linear-gradient(#2471A3, #3498DB);
-}
-
-.prueba4 {
-  border-radius: 25%;
-  text-align: center;
-  font-size: 0.7rem;
-}
 /*# sourceMappingURL=styles.css.map */
