@@ -68,12 +68,20 @@ body {
     margin-right: 2rem;
 }
 
+.ubication-btn {
+    background-image: linear-gradient(#ECF0F1, #2471A3);
+    color: #03090e;
+    border-radius: 2px;
+}
+
 .footer {
+
+    border-top: 2px solid #2471A3;
 
     .justify-content-end {
 
         .nav-item{
-            border-left: 4px solid #2471A3;
+            border-left: 2px solid #2471A3;
             .nav-link {
 
                 color: #ECF0F1;
