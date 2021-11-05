@@ -1,17 +1,15 @@
 * {
   // box-sizing: border-box;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 0.15rem!important;
 }
 
 body {
     background-image: linear-gradient(#ECF0F1, #3498DB);
     padding: unset!important;
+    
 }
 
-// .dropdown-menu {
-//     overflow: visible;
-// }
 
 .bg-light {
     background-color: #3498DB!important;
@@ -31,24 +29,48 @@ body {
 }
 
 .card-container1, .card-container2 {
-    // width: 100%!important;
     display: flex;
     justify-content: center;
     margin-top: 1rem!important;
     margin-bottom: 1rem!important;
 }
 
-.marca1 {
-    font-size: 1.2rem;
-    font-weight: bolder;
-    transition: transform 2s, color 1s;
-    margin-right: 2rem;
-    margin-left: 2rem;
+
+.container-marca {
+    display: flex;
+    flex-direction: column;
+    
+    .marca1 {
+        font-size: 2rem;
+        // font-weight: bold;
+        transition: transform 2s, color 1s;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 0;
+        font-family: 'Bangers', cursive;
+    
+    }
+
+    .marca2 {
+            font-size: 1rem;
+            // font-family: 'Luckiest Guy', cursive;
+            font-weight: bold;
+            margin-right: 1rem;
+            margin-left: 1rem;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    
+    .marca1:hover {
+        transform: scale(1.2 ,1.7);
+        color: #D4E6F1!important;
+    }
 }
 
-.marca1:hover {
-    transform: scale(1.3 ,1.8);
-    color: #D4E6F1!important;
+.navbar-nav {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    border-left: 2px solid black;
 }
 
 .accordion-body {
