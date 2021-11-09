@@ -37,6 +37,20 @@ body {
   margin-bottom: 1rem !important;
 }
 
+.card-container1 .card {
+  width: 18rem;
+}
+
+.card-container1 .card img {
+  height: 63%;
+}
+
+.card-container1 .card .card-body {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .container-marca {
   display: -webkit-box;
   display: -ms-flexbox;
