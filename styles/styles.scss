@@ -4,6 +4,11 @@
   padding: 0.15rem!important;
 }
 
+html {
+    padding: 0 !important;
+    width: 100%;
+}
+
 body {
     background-image: linear-gradient(#ECF0F1, #3498DB);
     padding: unset!important;
@@ -15,8 +20,18 @@ body {
     background-color: #3498DB!important;
 }
 
+.container-fluid {
+    box-shadow: 4px 4px 4px #03090e;
+}
+
 .nav-link {
     font-weight: bolder;
+}
+
+.form-control, .btn-outline-success {
+    padding: .8rem !important;
+    font-size: 1rem;
+    box-shadow: 4px 4px 4px #03090e;
 }
 
 .dropdown-item {
@@ -33,6 +48,7 @@ body {
     justify-content: center;
     margin-top: 1rem!important;
     margin-bottom: 1rem!important;
+    // box-shadow: 4px 4px 4px #03090e;
 }
 
 .card-container1 {
@@ -59,7 +75,7 @@ body {
     .marca1 {
         font-size: 2rem;
         // font-weight: bold;
-        transition: transform 2s, color 1s;
+        transition: transform 2.5s, color 1.5s;
         margin-right: 1rem;
         margin-left: 1rem;
         margin-bottom: 0;
@@ -68,7 +84,7 @@ body {
     }
 
     .marca2 {
-            font-size: 1rem;
+            font-size: 1.2rem;
             // font-family: 'Luckiest Guy', cursive;
             font-weight: bold;
             margin-right: 1rem;
@@ -78,7 +94,7 @@ body {
         }
     
     .marca1:hover {
-        transform: scale(1.2 ,1.7);
+        transform: scale(1.1 ,1.6);
         color: #D4E6F1!important;
     }
 }
@@ -91,6 +107,17 @@ body {
 
 .accordion-body {
     background-image: linear-gradient(#D4E6F1, #2471A3);
+}
+
+.accordion-button {
+    padding: 1.5rem !important;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.accordion-body {
+    padding: 1.5rem !important;
+    font-size: 1.1rem;
 }
 
 .carousel-item {
@@ -108,9 +135,7 @@ body {
     }
 }
 
-.ubicacion1 {
-    text-decoration: none;
-}
+
 
 .form-container1 {
     display: flex;
@@ -129,6 +154,13 @@ body {
     background-image: linear-gradient(#ECF0F1, #2471A3);
     color: #03090e;
     border-radius: 2px;
+}
+
+.ubicacion1 {
+    text-decoration: none;
+    padding: .8rem !important;
+    display: inline-block;
+    
 }
 
 .footer {
