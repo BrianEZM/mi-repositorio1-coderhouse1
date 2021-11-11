@@ -3,11 +3,6 @@
   padding: 0.15rem !important;
 }
 
-html {
-  padding: 0 !important;
-  width: 100%;
-}
-
 body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ECF0F1), to(#3498DB));
   background-image: linear-gradient(#ECF0F1, #3498DB);
@@ -21,6 +16,9 @@ body {
 .container-fluid {
   -webkit-box-shadow: 4px 4px 4px #03090e;
           box-shadow: 4px 4px 4px #03090e;
+  text-shadow: 1px 1px 0px #3498DB , 3px 3px 0px #ECF0F1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#707a8398), to(#1196ee));
+  background-image: linear-gradient(#707a8398, #1196ee);
 }
 
 .nav-link {

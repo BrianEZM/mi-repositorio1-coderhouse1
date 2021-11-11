@@ -4,10 +4,10 @@
   padding: 0.15rem!important;
 }
 
-html {
-    padding: 0 !important;
-    width: 100%;
-}
+// html {
+//     padding: 0 !important;
+//     width: 100%;
+// }
 
 body {
     background-image: linear-gradient(#ECF0F1, #3498DB);
@@ -22,6 +22,8 @@ body {
 
 .container-fluid {
     box-shadow: 4px 4px 4px #03090e;
+    text-shadow: 1px 1px 0px #3498DB , 3px 3px 0px #ECF0F1;
+    background-image: linear-gradient(#707a8398, #1196ee);
 }
 
 .nav-link {
@@ -80,7 +82,7 @@ body {
         margin-left: 1rem;
         margin-bottom: 0;
         font-family: 'Bangers', cursive;
-    
+        // border-bottom: 4px solid #ECF0F1;
     }
 
     .marca2 {
