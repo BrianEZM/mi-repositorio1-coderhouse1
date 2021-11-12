@@ -1,6 +1,6 @@
 * {
   font-family: 'Roboto', sans-serif;
-  padding: 0.15rem !important;
+  padding: 0.1rem !important;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 .container-fluid {
   -webkit-box-shadow: 4px 4px 4px #03090e;
           box-shadow: 4px 4px 4px #03090e;
-  text-shadow: 1px 1px 0px #3498DB , 3px 3px 0px #ECF0F1;
+  text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#707a8398), to(#1196ee));
   background-image: linear-gradient(#707a8398, #1196ee);
 }
@@ -39,6 +39,16 @@ body {
 .btn-outline-success {
   color: #03090e;
   border-color: #03090e;
+  text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3fa2e4e7), to(#7d90a0ab));
+  background-image: linear-gradient(#3fa2e4e7, #7d90a0ab);
+  font-weight: bolder;
+}
+
+.navbar-toggler-icon {
+  background-color: #83bbffc4;
+  border: 1px solid #013057bb;
+  border-radius: 2px;
 }
 
 .card-container1, .card-container2 {
@@ -50,6 +60,7 @@ body {
           justify-content: center;
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
+  text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
 }
 
 .card-container1 .card {
