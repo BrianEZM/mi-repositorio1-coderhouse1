@@ -130,6 +130,14 @@ body {
     font-size: 1.1rem;
 }
 
+#carouselExampleCaptions {
+    
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+
 .carousel-item {
 
     width: 100%;
@@ -140,11 +148,14 @@ body {
         
         width: 100%;
         margin-left: auto;
-        margin-right: auto;    
+        margin-right: auto;   
+        border-radius: 5px;
+        box-shadow: 4px 4px 4px black;
         
     }
 }
 
+}
 
 
 .form-container1 {
