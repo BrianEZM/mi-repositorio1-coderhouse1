@@ -64,6 +64,7 @@ body {
 }
 
 .card-container1 .card {
+  font-size: 1.1rem;
   width: 18rem;
 }
 
@@ -75,6 +76,10 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.card-container2 {
+  font-size: 1.1rem;
 }
 
 .container-marca {
@@ -117,7 +122,7 @@ body {
 .navbar-nav {
   font-size: 1.3rem;
   margin-left: 1rem;
-  border-left: 2px solid black;
+  border-left: 3px solid #2471A3;
 }
 
 .accordion-body {
@@ -134,6 +139,10 @@ body {
 .accordion-body {
   padding: 1.5rem !important;
   font-size: 1.1rem;
+}
+
+.accordion-body .lista-acordion {
+  margin-top: 1rem;
 }
 
 #carouselExampleCaptions {
@@ -168,29 +177,38 @@ body {
           justify-content: space-evenly;
 }
 
-.form-select {
+.form-container1 .col-auto {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.form-container1 .col-auto .form-select {
   width: 8rem;
 }
 
-.col-auto {
-  margin-right: 2rem;
-}
-
-.ubication-btn {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ECF0F1), to(#2471A3));
-  background-image: linear-gradient(#ECF0F1, #2471A3);
-  color: #03090e;
-  border-radius: 2px;
+.form-container1 .col-auto .btn-primary {
+  padding: 0.5rem !important;
+  -webkit-box-shadow: 4px 4px 4px #03090e;
+          box-shadow: 4px 4px 4px #03090e;
 }
 
 .ubicacion1 {
   text-decoration: none;
   padding: .8rem !important;
   display: inline-block;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b1e2ee), to(#143850));
+  background-image: linear-gradient(#b1e2ee, #143850);
+  color: #03090e;
+  border-radius: 2px;
+  font-weight: bold;
+  -webkit-box-shadow: 4px 4px 4px #03090e;
+          box-shadow: 4px 4px 4px #03090e;
 }
 
 .footer {
   border-top: 2px solid #2471A3;
+  text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #03090e;
+  font-size: 1.2rem;
 }
 
 .footer .justify-content-end .nav-item {

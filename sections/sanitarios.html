@@ -10,9 +10,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap" rel="stylesheet">
+     
+    <!-- GOOGLE FONTS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
@@ -66,67 +65,101 @@
         </div>
     </header>
 
- <!-- FIN BODY + HEADER -->
+<!-- FIN BODY + HEADER -->
 
-     <!-- PRUEBA CAROUSEL -->
+<!-- INICIO CARDS -->
 
-     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../img/CAROUSEL1.jpg" class="d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+     <div class="container">
+      <div class="row">
+       
+      <div class="card-container1 col-lg-3 col-md-3 col-sm-6">
+        <div class="card">
+            <img src="../img/CARD-INDEX2.jpg" class="card-img-top" alt="Imagen de baño">
+            <div class="card-body">
+              <p class="card-text">Aqui encontraras toda la variedad de sanitarios e insumos para tu hogar ¡Acercate a nuestro local!</p>
+            </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../img/CAROUSEL4.jpg" class="d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../img/CAROUSEL3.jpg" class="d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-
-    <!-- FIN PRUEBA CAROUSEL -->
-
-    <!-- INICIO WIDGETS CARDS + ACCORDION -->
-
-    <div class="card-container1">
+    <div class="card-container1 col-lg-3 col-md-3 col-sm-6">
       <div class="card" style="width: 18rem">
         <img
-          src="../img/sanitarios1.jpg"
+          src="../img/sanitarios3.jpg"
           class="card-img-top"
-          alt="Imagen de sanitarios para el baño del hogar"
+          alt="Imagen de canilla de baño"
         />
         <div class="card-body">
           <p class="card-text">
-            ¡Bienvenido a Sanitarios Callao! Esta es nuestra principal sección, con la que contamos con la mejor calidad de atención de toda la zona ¡Te esperamos!
+            En esta seccion encontraras la
+            informacion acerca del rubro y nuestros beneficios para vos.
           </p>
         </div>
       </div>
     </div>
+    <div class="card-container1 col-lg-3 col-md-3 col-sm-6">
+      <div class="card">
+          <img src="../img/sanitarios4.jpg" class="card-img-top" alt="Imagen de ducha de baño">
+          <div class="card-body">
+            <p class="card-text">Tenemos la mas amplia seleccion de diseños y estilos para que elijas el que mas te guste</p>
+          </div>
+        </div>
+  </div>
+  <div class="card-container1 col-lg-3 col-md-3 col-sm-6">
+    <div class="card">
+        <img src="../img/CARD-INDEX4.jpg" class="card-img-top" alt="Imagen de herramientas construcción">
+        <div class="card-body">
+          <p class="card-text">Herramientas y materiales para todo tipo de trabajos en el hogar y la construcción</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+<!-- FIN CARDS -->
+
+<!-- INICIO CAROUSEL -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/CAROUSEL1.jpg" class="d-block" alt="Imagen de ferreteria">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Multirubro Industrial</h5>
+          <p>Tenemos la mas amplia oferta de suministros</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../img/sanitariosCAROUSEL.jpg" class="d-block" alt="Imagen de baño">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Todo lo que necesitas para el baño de tu hogar</h5>
+          <p>Acercate para encontrar lo que estas buscando</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../img/CAROUSEL3.jpg" class="d-block" alt="Imagen de pinturas">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>El lugar de tus pinturas y terminaciones</h5>
+          <p>Decenas de colores y los elemenos para su aplicación</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- FIN CAROUSEL -->
+
+    <!-- INICIO WIDGETS CARDS + ACCORDION -->
 
     <main>
       <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -138,16 +171,14 @@
               data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseOne"
               aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseOne"
-            >
+              aria-controls="panelsStayOpen-collapseOne">
               Sanitarios y cañerias, nuestro mas importante pilar.
             </button>
           </h2>
           <div
             id="panelsStayOpen-collapseOne"
             class="accordion-collapse collapse show"
-            aria-labelledby="panelsStayOpen-headingOne"
-          >
+            aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
               <strong>Sanitarios Callao</strong> inicio con el objetivo de abarcar todo lo que se podria necesitar a la hora de pensar en baños, lavamanos, duchas, tinas, sus respectivas cañerias y accesorios. El exito en esta incursion nos motivo a expandirnos a todos los rubros que encontraras en nuestro sitio, nos mantuvimos en crecimiento desde entonces ¡Te esperamos!
             </div>
@@ -161,26 +192,19 @@
               data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseTwo"
               aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseTwo"
-            >
-              Informacion institucional
-            </button>
+              aria-controls="panelsStayOpen-collapseTwo">Tenemos todo lo que buscas para tus sanitarios y sus refacciones</button>
           </h2>
-          <div
-            id="panelsStayOpen-collapseTwo"
+          <div id="panelsStayOpen-collapseTwo"
             class="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingTwo"
-          >
+            aria-labelledby="panelsStayOpen-headingTwo">
             <div class="accordion-body">
-              Situado en las cercanias de la estacion de Grand Bourg del
-              ferrocarril Belgrano Norte, Santiarios Callao es una ferreteria de
-              barrio que ofrece a la zona muchisimas soluciones y los provee de
-              elementos siempre tan necesitados en el hogar.
-              En Sanitarios Callao se ofrecio, ofrece y ofrecera
-              siempre atencion personalizada y experimentada a todo aquel que se
-              acerce a nuestro mostrador. Adicionalmente podemos gestionar
-              grandes pedidos para fines mayoristas como puede ser una obra o
-              proyecto de mayor embergadura.
+              <p>Si buscas renovar tu baño o construir uno, este es el lugar indicado.</p>
+              <ul class="lista-acordion">Te esperamos para ofrecerte:
+                <li>Todas la variedades de diseños, estilos y calidades</li>
+                <li>Herramientas para tus trabajos u obras</li>
+                <li>Insumos varios para tu vanitory</li>
+                <li>Cañerias de todo tipo y sus accesorios</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -192,16 +216,14 @@
               data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseThree"
               aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseThree"
-            >
+              aria-controls="panelsStayOpen-collapseThree">
               Atencion al publico
             </button>
           </h2>
           <div
             id="panelsStayOpen-collapseThree"
             class="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingThree"
-          >
+            aria-labelledby="panelsStayOpen-headingThree">
             <div class="accordion-body">
               <p>
                 Nuestros horarios de atención: <br />
@@ -211,6 +233,7 @@
                 Sabado: <br />
                 De 08:30HS a 17:00HS <br />
               </p>
+              <p>Grand Bourg, Buenos Aires AR, El Callao 2589, B1615</p>
               <div>
                 <a class="ubication-btn ubicacion1" href="https://www.google.com.ar/maps/place/Sanitarios+Callao/@-34.4780199,-58.7331586,18.83z/data=!4m5!3m4!1s0x95bca27e3b64666b:0x773f74cf2b16455b!8m2!3d-34.4775472!4d-58.7335548" class="ubicacion1" target="_blank">¡Ubicación!</a>
             </div>
@@ -219,60 +242,6 @@
         </div>
       </div>
     </main>
-
-    <!-- <div class="form-container1">
-      <form class="row gy-2 gx-3 align-items-center">
-        <div class="col-auto">
-          <label class="visually-hidden" for="autoSizingInput">Nombre</label>
-          <input
-            type="text"
-            class="form-control"
-            id="autoSizingInput"
-            placeholder="Nombre completo"
-          />
-        </div>
-        <div class="col-auto">
-          <label class="visually-hidden" for="autoSizingInputGroup"
-            >Username</label
-          >
-          <div class="input-group">
-            <div class="input-group-text">@</div>
-            <input
-              type="text"
-              class="form-control"
-              id="autoSizingInputGroup"
-              placeholder="Usuario/Cliente"
-            />
-          </div>
-        </div>
-        <div class="col-auto">
-          <label class="visually-hidden" for="autoSizingSelect"
-            >Preference</label
-          >
-          <select class="form-select" id="autoSizingSelect">
-            <option selected>Elegir...</option>
-            <option value="1">Mayorista</option>
-            <option value="2">Minorista</option>
-            <option value="3">Distribuidor</option>
-          </select>
-        </div>
-        <div class="col-auto">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              id="autoSizingCheck"
-            />
-            <label class="form-check-label" for="autoSizingCheck">
-              Recordarme
-            </label>
-          </div>
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-      </form>
-    </div> -->
 
     <div class="card-container2">
       <div class="card" style="width: 18rem">
@@ -286,7 +255,7 @@
       </div>
     </div>
 
-    <!-- FIN WIDGETS CARDS + ACCORDION -->
+    <!-- FIN WIDGETS ACCORDION -->
 
     <!-- INICIO FOOTER -->
 

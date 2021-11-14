@@ -4,10 +4,6 @@
   padding: 0.1rem!important;
 }
 
-// html {
-//     padding: 0 !important;
-//     width: 100%;
-// }
 
 body {
     background-image: linear-gradient(#ECF0F1, #3498DB);
@@ -59,7 +55,6 @@ body {
     justify-content: center;
     margin-top: 1rem!important;
     margin-bottom: 1rem!important;
-    // box-shadow: 4px 4px 4px #03090e;
     text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
 }
 
@@ -67,8 +62,8 @@ body {
 
     .card {
 
+        font-size: 1.1rem;
         width: 18rem;
-        // height: 17rem;
 
         img {
             height: 63%;
@@ -77,6 +72,10 @@ body {
             height: fit-content;
         }
     }
+}
+
+.card-container2 {
+    font-size: 1.1rem;
 }
 
 
@@ -112,7 +111,7 @@ body {
 .navbar-nav {
     font-size: 1.3rem;
     margin-left: 1rem;
-    border-left: 2px solid black;
+    border-left: 3px solid #2471A3;;
 }
 
 .accordion-body {
@@ -128,6 +127,10 @@ body {
 .accordion-body {
     padding: 1.5rem !important;
     font-size: 1.1rem;
+
+        .lista-acordion {
+            margin-top: 1rem;
+        }
 }
 
 #carouselExampleCaptions {
@@ -161,32 +164,43 @@ body {
 .form-container1 {
     display: flex;
     justify-content: space-evenly;
-}
+    
 
-.form-select {
-    width: 8rem;
-}
+    .col-auto {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        
 
-.col-auto {
-    margin-right: 2rem;
-}
+        .form-select {
+            width: 8rem;
+        }
 
-.ubication-btn {
-    background-image: linear-gradient(#ECF0F1, #2471A3);
-    color: #03090e;
-    border-radius: 2px;
+        .btn-primary {
+            padding: 0.5rem !important;
+            box-shadow: 4px 4px 4px #03090e;
+        }
+
+    }
+
 }
 
 .ubicacion1 {
     text-decoration: none;
     padding: .8rem !important;
     display: inline-block;
+    background-image: linear-gradient(#b1e2ee, #143850);
+    color: #03090e;
+    border-radius: 2px;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px #03090e;
     
 }
 
 .footer {
 
     border-top: 2px solid #2471A3;
+    text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #03090e;
+    font-size: 1.2rem;
 
     .justify-content-end {
 
