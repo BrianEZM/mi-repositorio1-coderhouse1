@@ -2,11 +2,12 @@
   // box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   padding: 0.1rem!important;
+  color: #000508;
 }
 
 
 body {
-    background-image: linear-gradient(#ECF0F1, #3498DB);
+    background-image: linear-gradient( #707a8398, #03090e);
     padding: unset!important;
     
 }
@@ -16,14 +17,34 @@ body {
     background-color: #3498DB!important;
 }
 
-.container-fluid {
+.header {
+    background-image: linear-gradient( #0c3658, #707a8398,);
     box-shadow: 4px 4px 4px #03090e;
-    text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
-    background-image: linear-gradient(#707a8398, #1196ee);
+    border-radius: 3px;
+    
+    .header__main-div {
+
+    border-radius: 3px;
+
+        .navbar {
+            
+        border-radius: 3px;
+
+            .container-fluid {
+                // box-shadow: 4px 4px 4px #03090e;
+                text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
+                background-image: linear-gradient( #1f5079ca, #707a8398,);
+                border-radius: 3px;
+    }
+   }
+  }
 }
+
 
 .nav-link {
     font-weight: bolder;
+    font-size: 1.4rem;
+    color: black;
 }
 
 .form-control, .btn-outline-success {
@@ -37,16 +58,16 @@ body {
 }
 
 .btn-outline-success {
-    color: #03090e;
+    color: #000508;
     border-color: #03090e;
     text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
-    background-image: linear-gradient(#3fa2e4e7, #7d90a0ab);
+    background-image: linear-gradient(#3fa2e4e7, #c4ced6c5);
     font-weight: bolder;
 }
 
 .navbar-toggler-icon{
-    background-color: #83bbffc4;
-    border: 1px solid #013057bb;
+    background-color: #c4dbf6c4;
+    border: 1.5px solid #013057bb;
     border-radius: 2px;
 }
 
@@ -60,8 +81,10 @@ body {
 
 .card-container1 {
 
-    .card {
+    
 
+    .card {
+        background-image: linear-gradient(#3fa2e4e7, #7d90a0ab);
         font-size: 1.1rem;
         width: 18rem;
 
@@ -76,6 +99,10 @@ body {
 
 .card-container2 {
     font-size: 1.1rem;
+
+    .card {
+        background-image: linear-gradient(#3fa2e4e7, #7d90a0ab);
+    }
 }
 
 
@@ -104,7 +131,7 @@ body {
     
     .marca1:hover {
         transform: scale(1.1 ,1.6);
-        color: #D4E6F1!important;
+        color: #d4e6f1c4!important;
     }
 }
 
@@ -114,24 +141,32 @@ body {
     border-left: 3px solid #2471A3;;
 }
 
-.accordion-body {
-    background-image: linear-gradient(#D4E6F1, #2471A3);
+.accordion-item {
+    background-color: #D4E6F1;
+    border-radius: 2px;
+    
+    .accordion-button {
+        padding: 1.5rem !important;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        background-color: #D4E6F1;
+        border-radius: 2px;
+    }
+    
+    .accordion-body {
+        padding: 1.5rem !important;
+        font-size: 1.1rem;
+        background-image: linear-gradient(#D4E6F1, #2471A3);
+        border-radius: 2px;
+
+            .lista-acordion {
+                margin-top: 1rem;
+            }
+    }
+
 }
 
-.accordion-button {
-    padding: 1.5rem !important;
-    font-size: 1.3rem;
-    font-weight: bolder;
-}
 
-.accordion-body {
-    padding: 1.5rem !important;
-    font-size: 1.1rem;
-
-        .lista-acordion {
-            margin-top: 1rem;
-        }
-}
 
 #carouselExampleCaptions {
     
@@ -152,9 +187,12 @@ body {
         width: 100%;
         margin-left: auto;
         margin-right: auto;   
-        border-radius: 5px;
-        box-shadow: 4px 4px 4px black;
+        border-radius: 4px;
         
+    }
+    .carousel-caption {
+        font-weight: bolder;
+        text-shadow: 1px 1px 0px #0f2838 , 2px 2px 0px #adbcc8;
     }
 }
 

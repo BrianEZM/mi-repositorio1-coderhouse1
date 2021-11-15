@@ -1,11 +1,12 @@
 * {
   font-family: 'Roboto', sans-serif;
   padding: 0.1rem !important;
+  color: #000508;
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ECF0F1), to(#3498DB));
-  background-image: linear-gradient(#ECF0F1, #3498DB);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#707a8398), to(#03090e));
+  background-image: linear-gradient(#707a8398, #03090e);
   padding: unset !important;
 }
 
@@ -13,16 +14,33 @@ body {
   background-color: #3498DB !important;
 }
 
-.container-fluid {
+.header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0c3658), to(#707a8398));
+  background-image: linear-gradient(#0c3658, #707a8398);
   -webkit-box-shadow: 4px 4px 4px #03090e;
           box-shadow: 4px 4px 4px #03090e;
+  border-radius: 3px;
+}
+
+.header .header__main-div {
+  border-radius: 3px;
+}
+
+.header .header__main-div .navbar {
+  border-radius: 3px;
+}
+
+.header .header__main-div .navbar .container-fluid {
   text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#707a8398), to(#1196ee));
-  background-image: linear-gradient(#707a8398, #1196ee);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1f5079ca), to(#707a8398));
+  background-image: linear-gradient(#1f5079ca, #707a8398);
+  border-radius: 3px;
 }
 
 .nav-link {
   font-weight: bolder;
+  font-size: 1.4rem;
+  color: black;
 }
 
 .form-control, .btn-outline-success {
@@ -37,17 +55,17 @@ body {
 }
 
 .btn-outline-success {
-  color: #03090e;
+  color: #000508;
   border-color: #03090e;
   text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3fa2e4e7), to(#7d90a0ab));
-  background-image: linear-gradient(#3fa2e4e7, #7d90a0ab);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3fa2e4e7), to(#c4ced6c5));
+  background-image: linear-gradient(#3fa2e4e7, #c4ced6c5);
   font-weight: bolder;
 }
 
 .navbar-toggler-icon {
-  background-color: #83bbffc4;
-  border: 1px solid #013057bb;
+  background-color: #c4dbf6c4;
+  border: 1.5px solid #013057bb;
   border-radius: 2px;
 }
 
@@ -64,6 +82,8 @@ body {
 }
 
 .card-container1 .card {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3fa2e4e7), to(#7d90a0ab));
+  background-image: linear-gradient(#3fa2e4e7, #7d90a0ab);
   font-size: 1.1rem;
   width: 18rem;
 }
@@ -80,6 +100,11 @@ body {
 
 .card-container2 {
   font-size: 1.1rem;
+}
+
+.card-container2 .card {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3fa2e4e7), to(#7d90a0ab));
+  background-image: linear-gradient(#3fa2e4e7, #7d90a0ab);
 }
 
 .container-marca {
@@ -116,7 +141,7 @@ body {
 .container-marca .marca1:hover {
   -webkit-transform: scale(1.1, 1.6);
           transform: scale(1.1, 1.6);
-  color: #D4E6F1 !important;
+  color: #d4e6f1c4 !important;
 }
 
 .navbar-nav {
@@ -125,23 +150,28 @@ body {
   border-left: 3px solid #2471A3;
 }
 
-.accordion-body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#D4E6F1), to(#2471A3));
-  background-image: linear-gradient(#D4E6F1, #2471A3);
+.accordion-item {
+  background-color: #D4E6F1;
+  border-radius: 2px;
 }
 
-.accordion-button {
+.accordion-item .accordion-button {
   padding: 1.5rem !important;
   font-size: 1.3rem;
   font-weight: bolder;
+  background-color: #D4E6F1;
+  border-radius: 2px;
 }
 
-.accordion-body {
+.accordion-item .accordion-body {
   padding: 1.5rem !important;
   font-size: 1.1rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#D4E6F1), to(#2471A3));
+  background-image: linear-gradient(#D4E6F1, #2471A3);
+  border-radius: 2px;
 }
 
-.accordion-body .lista-acordion {
+.accordion-item .accordion-body .lista-acordion {
   margin-top: 1rem;
 }
 
@@ -163,9 +193,12 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
-  -webkit-box-shadow: 4px 4px 4px black;
-          box-shadow: 4px 4px 4px black;
+  border-radius: 4px;
+}
+
+#carouselExampleCaptions .carousel-item .carousel-caption {
+  font-weight: bolder;
+  text-shadow: 1px 1px 0px #0f2838 , 2px 2px 0px #adbcc8;
 }
 
 .form-container1 {
