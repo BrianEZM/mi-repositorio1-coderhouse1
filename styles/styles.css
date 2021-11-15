@@ -215,6 +215,10 @@ body {
   margin-left: 1.5rem;
 }
 
+.form-container1 .col-auto .input-group-text {
+  width: 1.5rem;
+}
+
 .form-container1 .col-auto .form-select {
   width: 8rem;
 }

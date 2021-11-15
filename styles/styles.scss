@@ -208,7 +208,10 @@ body {
         margin-right: 1.5rem;
         margin-left: 1.5rem;
         
-
+        .input-group-text {
+            width: 1.5rem;
+        }
+        
         .form-select {
             width: 8rem;
         }
