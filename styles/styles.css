@@ -1,17 +1,17 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0.1rem !important;
   color: #000508;
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#707a8398), to(#03090e));
-  background-image: linear-gradient(#707a8398, #03090e);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8fa7bdc4), to(#03090e));
+  background-image: linear-gradient(#8fa7bdc4, #03090e);
   padding: unset !important;
 }
 
 .bg-light {
-  background-color: #3498DB !important;
+  background-color: #3498db !important;
 }
 
 .header {
@@ -31,7 +31,7 @@ body {
 }
 
 .header .header__main-div .navbar .container-fluid {
-  text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
+  text-shadow: 1px 1px 0px #3498db, 2px 2px 0px #ecf0f1;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1f5079ca), to(#707a8398));
   background-image: linear-gradient(#1f5079ca, #707a8398);
   border-radius: 3px;
@@ -43,8 +43,9 @@ body {
   color: black;
 }
 
-.form-control, .btn-outline-success {
-  padding: .8rem !important;
+.form-control,
+.btn-outline-success {
+  padding: 0.8rem !important;
   font-size: 1rem;
   -webkit-box-shadow: 4px 4px 4px #03090e;
           box-shadow: 4px 4px 4px #03090e;
@@ -57,7 +58,7 @@ body {
 .btn-outline-success {
   color: #000508;
   border-color: #03090e;
-  text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
+  text-shadow: 1px 1px 0px #3498db, 2px 2px 0px #ecf0f1;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#3fa2e4e7), to(#c4ced6c5));
   background-image: linear-gradient(#3fa2e4e7, #c4ced6c5);
   font-weight: bolder;
@@ -69,7 +70,8 @@ body {
   border-radius: 2px;
 }
 
-.card-container1, .card-container2 {
+.card-container1,
+.card-container2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +80,7 @@ body {
           justify-content: center;
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
-  text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #ECF0F1;
+  text-shadow: 1px 1px 0px #3498db, 2px 2px 0px #ecf0f1;
 }
 
 .card-container1 .card {
@@ -126,7 +128,7 @@ body {
   margin-right: 1rem;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: 'Bangers', cursive;
+  font-family: "Bangers", cursive;
 }
 
 .container-marca .marca2 {
@@ -147,11 +149,11 @@ body {
 .navbar-nav {
   font-size: 1.3rem;
   margin-left: 1rem;
-  border-left: 3px solid #2471A3;
+  border-left: 3px solid #2471a3;
 }
 
 .accordion-item {
-  background-color: #D4E6F1;
+  background-color: #d4e6f1;
   border-radius: 2px;
 }
 
@@ -159,15 +161,15 @@ body {
   padding: 1.5rem !important;
   font-size: 1.3rem;
   font-weight: bolder;
-  background-color: #D4E6F1;
+  background-color: #d4e6f1;
   border-radius: 2px;
 }
 
 .accordion-item .accordion-body {
   padding: 1.5rem !important;
   font-size: 1.1rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#D4E6F1), to(#2471A3));
-  background-image: linear-gradient(#D4E6F1, #2471A3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d4e6f1), to(#2471a3));
+  background-image: linear-gradient(#d4e6f1, #2471a3);
   border-radius: 2px;
 }
 
@@ -198,7 +200,7 @@ body {
 
 #carouselExampleCaptions .carousel-item .carousel-caption {
   font-weight: bolder;
-  text-shadow: 1px 1px 0px #0f2838 , 2px 2px 0px #adbcc8;
+  text-shadow: 1px 1px 0px #0f2838, 2px 2px 0px #adbcc8;
 }
 
 .form-container1 {
@@ -231,7 +233,7 @@ body {
 
 .ubicacion1 {
   text-decoration: none;
-  padding: .8rem !important;
+  padding: 0.8rem !important;
   display: inline-block;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#b1e2ee), to(#143850));
   background-image: linear-gradient(#b1e2ee, #143850);
@@ -243,16 +245,16 @@ body {
 }
 
 .footer {
-  border-top: 2px solid #2471A3;
-  text-shadow: 1px 1px 0px #3498DB , 2px 2px 0px #03090e;
+  border-top: 2px solid #2471a3;
+  text-shadow: 1px 1px 0px #3498db, 2px 2px 0px #03090e;
   font-size: 1.2rem;
 }
 
 .footer .justify-content-end .nav-item {
-  border-left: 2px solid #2471A3;
+  border-left: 2px solid #2471a3;
 }
 
 .footer .justify-content-end .nav-item .nav-link {
-  color: #ECF0F1;
+  color: #ecf0f1;
 }
 /*# sourceMappingURL=styles.css.map */
